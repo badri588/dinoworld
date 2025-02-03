@@ -1,0 +1,82 @@
+.DS_Store
+node_modules
+build
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+package-lock.json
+yarn.lock
+npm-debug.log
+.pnp*
+
+# Optional files that might be in your project
+.history
+*.log
+*.lock
+*.tgz
+*.tar.gz
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Testing
+coverage/
+__snapshots__/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.cache
+
+# Deployment specific
+.ebextensions/
+.elasticbeanstalk/
+dist/
+out/
+
+# Docker
+Dockerfile.prod
+.dockerignore
+
+# Kubernetes
+.kube/
+*.yaml
+*.yml
+
+# Storybook
+.storybook-cache
+
+# Next.js specific
+.next/
+out/
+next.config.js
+
+# Other
+*.swp
+*~
+# If you use a monorepo (like pnpm workspaces) and want to exclude the node_modules of sub-packages
+**/node_modules
+
+# If you use a component library and don't want to track its examples/ or stories
+**/examples
+**/stories
+
+# If you use a static analysis tool
+.eslintcache
+.stylelintcache
+
+# If you use a package manager like bun
+.bun/
+
+# If you use a lockfile for dependency management, you generally *should* include it, but if you are *absolutely certain* you don't want to:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
