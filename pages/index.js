@@ -46,7 +46,7 @@ const Index = () => {
                             Start Learning With
                           </div>
                           <div className="box-custom">
-                            <div className="wrap clr-pri-1">Kindco School .</div>
+                            <div className="wrap clr-pri-1">Kindco School</div>
                             <svg
                               data-name="Hero Area"
                               xmlns="http://www.w3.org/2000/svg"
