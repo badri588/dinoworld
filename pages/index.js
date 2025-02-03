@@ -39,14 +39,15 @@ const Index = () => {
                     <SwiperSlide className="owl-item">
                       <div className="item-slider-1">
                         <div className="box-content">
-                          <div className="sub clr-pri-2">
-                            We Care Child Study
-                          </div>
+                          {/* <div className="sub clr-pri-2">
+                          Dinosaurs, Thrilling Activities, and Unforgettable Fun!                          
+                          </div> */}
                           <div className="title clr-pri-2">
-                            Start Learning With
+                           Dinosaur Park Hyderabad
                           </div>
+
                           <div className="box-custom">
-                            <div className="wrap clr-pri-1">Kindco School</div>
+                            <div className="wrap clr-pri-1">Dino World</div>
                             <svg
                               data-name="Hero Area"
                               xmlns="http://www.w3.org/2000/svg"
@@ -64,18 +65,35 @@ const Index = () => {
                               </g>
                             </svg>
                           </div>
+                          
+                         
                           <ul>
                             <li className="st-1 fx">
                               <i className="fas fa-check" />
-                              <p className="clr-pri-2">Outdoor Games</p>
+                              <p className="clr-pri-2">Dinosaurs</p>
                             </li>
                             <li className="st-2 fx">
                               <i className="fas fa-check" />
-                              <p className="clr-pri-2">Sport Activites</p>
+                              <p className="clr-pri-2">Water Park
+                              </p>
                             </li>
                             <li className="st-3 fx">
                               <i className="fas fa-check" />
-                              <p className="clr-pri-2">Nutritious Foods</p>
+                              <p className="clr-pri-2">Playground
+
+                              </p>
+                            </li>
+                            <li className="st-3 fx">
+                              <i className="fas fa-check" />
+                              <p className="clr-pri-2">Adventure Zone
+                              </p>
+                            </li>
+                            
+                            <li className="st-1 fx">
+                              <i className="fas fa-check" />
+                              <p className="clr-pri-2">Food
+
+                              </p>
                             </li>
                           </ul>
                           <div className="box-btn">
@@ -84,7 +102,7 @@ const Index = () => {
                             </a>
                             <Link href="/about">
                               <a className="fl-btn st-1">
-                                <span className="inner">learn more</span>
+                                <span className="inner">Explore</span>
                               </a>
                             </Link>
                           </div>
@@ -92,14 +110,15 @@ const Index = () => {
                         <div className="box-feature">
                           <div className="image">
                             <img
-                              src="assets/images/common/slider-1.png"
+                              // src="assets/images/common/slider-1.png"
+                              src="https://img.freepik.com/free-vector/scene-with-dinosaurs-brontosaurus-island_1308-102944.jpg?t=st=1738584743~exp=1738588343~hmac=e2a2354c666532424e164fa47a4646f0b12e3d707d6c3cbe62eba0588ae9fe71&w=740"
                               alt="Image"
                             />
                           </div>
                         </div>
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide className="owl-item">
+                    {/* <SwiperSlide className="owl-item">
                       <div className="item-slider-1">
                         <div className="box-content">
                           <div className="sub clr-pri-2">
@@ -159,7 +178,7 @@ const Index = () => {
                           </div>
                         </div>
                       </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                   </Swiper>
                 </div>
                 {/*/.themesflat-carousel*/}
@@ -176,11 +195,11 @@ const Index = () => {
               <div className="title-heading st-2">
                 <div className="sub-heading clr-pri-1 f-mulish">
                   <LeftArrowWhite />
-                  <span className="inner-sub st-1">Why Choose Us</span>
+                  <span className="inner-sub st-1">Entry Fee</span>
                   <RightArrowWhite />
                 </div>
                 <h2 className="title clr-pri-1">
-                  Discover Now Why People Come With Kindco
+                Explore Our Exciting Packages and Offers
                 </h2>
               </div>
             </div>
@@ -210,16 +229,17 @@ const Index = () => {
                 <div className="box-content">
                   <h4 className="title">
                     <Link href="/classes">
-                      <a>Study &amp; Game</a>
+                      {/* <a>Study &amp; Game</a> */}
+                      <a> Entry Fee  ₹470/-</a>
+                     
                     </Link>
                   </h4>
-                  <p className="wrap f-mulish">
-                    Sed ut perspiciatis unde omnis iste natu voluptatem accus
-                    antium dolorem
+                  <p className="wrap f-mulish text-justify">
+                  Purchase at the entrance. Includes access to Dinosaur View and all activities. Food not included (available at the cafeteria). Outside food prohibited.
                   </p>
                   <Link href="/classes">
                     <a className="fl-btn st-13">
-                      <span className="inner">read more</span>
+                      {/* <span className="inner">read more</span> */}
                     </a>
                   </Link>
                 </div>
@@ -250,19 +270,23 @@ const Index = () => {
                 </div>
                 <div className="box-content">
                   <h4 className="title">
-                    <Link href="/program">
-                      <a>A to Z Programs</a>
-                    </Link>
+                    {/* <Link href="/program"> */}
+                      <a>Group Discounts</a>
+                    {/* </Link> */}
                   </h4>
+                  
                   <p className="wrap f-mulish">
-                    Sed ut perspiciatis unde omnis iste natu voluptatem accus
-                    antium dolorem
-                  </p>
-                  <Link href="/program">
+    <strong>5% discount for groups of 10+</strong>
+    <strong>10% discount for groups of 20+</strong>
+    <strong>15% discount for groups of 30+</strong>
+  </p>
+                
+                
+                  {/* <Link href="/program">
                     <a className="fl-btn st-13">
                       <span className="inner">read more</span>
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -291,19 +315,18 @@ const Index = () => {
                 </div>
                 <div className="box-content">
                   <h4 className="title">
-                    <Link href="/teacher">
-                      <a>Expert Teacher</a>
-                    </Link>
+                    {/* <Link href="/teacher"> */}
+                      <a>Kitty Party Packages</a>
+                    {/* </Link> */}
                   </h4>
-                  <p className="wrap f-mulish">
-                    Sed ut perspiciatis unde omnis iste natu voluptatem accus
-                    antium dolorem
+                  <p className="wrap f-mulish text-justify">
+                  Starting at ₹650/- per person (min. 20 people). Pricing depends on the food menu. Contact: 90009 24143
                   </p>
-                  <Link href="/teacher">
+                  {/* <Link href="/teacher">
                     <a className="fl-btn st-13">
                       <span className="inner">read more</span>
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -332,19 +355,19 @@ const Index = () => {
                 </div>
                 <div className="box-content">
                   <h4 className="title">
-                    <Link href="/events">
-                      <a>Mental Health</a>
-                    </Link>
+                    {/* <Link href="/events"> */}
+                      <a>Party Packages</a>
+                    {/* </Link> */}
                   </h4>
-                  <p className="wrap f-mulish">
-                    Sed ut perspiciatis unde omnis iste natu voluptatem accus
-                    antium dolorem
+                  <p className="wrap f-mulish text-justify">
+                  Starting at ₹650/- per person (min. 20 people). Food menu affects pricing. Alcohol prohibited unless permitted. Contact: 90009 24143.
+
                   </p>
-                  <Link href="/events">
+                  {/* <Link href="/events">
                     <a className="fl-btn st-13">
                       <span className="inner">read more</span>
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -361,27 +384,26 @@ const Index = () => {
                   data-wow-delay="0.3ms"
                   data-wow-duration="1500ms"
                 >
-                  <img src="assets/images/pattern/about-us-3.png" alt="Image" />
+                  <img
+                  //  src="assets/images/pattern/about-us-3.png"
+                  src="https://img.freepik.com/free-vector/font-word-dinosaur-with-triceratops-forest_1308-42806.jpg?t=st=1738587474~exp=1738591074~hmac=28993ee3a44e249e215981129bab204b1a56ee851f78ad52584eb1ad1fe11b17&w=826"
+                    alt="Image" />
                 </div>
                 <div className="sc-about-content">
                   <div className="title-heading">
                     <div className="sub-heading clr-pri-3 f-mulish">
-                      <span className="inner-sub st-2">About Us</span>
+                      <span className="inner-sub st-2">About Dino World</span>
                       <RightArrow />
                     </div>
                     <h2 className="title clr-pri-2">
-                      We Learn Smart Way To Build Bright Futute For Your
-                      Children
+                    Experience the Jurassic Era like Never Before!
                     </h2>
                   </div>
-                  <p className="wrap f-mulish st-1">
-                    Amet consectetur adipiscin elitsed eiusmod tempor incididunt
-                    labore et dolore magna aliqua. Quis ipsum suspendisse
-                    ultrices gravida. Risus commodo maecenas accumsan
+                  <p className="wrap f-mulish st-1 text-justify">
+                  Dino World, Hyderabad's first animatronic dinosaur park, features over 30 life-sized dinosaurs, including a T-Rex and Spinosaurus. Enjoy thrilling attractions like the Water Park, Adventure Zone, and Playground, perfect for both kids and adults.
                   </p>
-                  <p className="wrap f-mulish st-2">
-                    Quis autem vel eum iure reprehenderit quiin ea voluptate
-                    velit esse quam nihil molestiae consequatur velillum
+                  <p className="wrap f-mulish st-2  text-justify">
+                  Located in Bandaravirala Village, the park also offers a multi-cuisine food court and unique dining experiences, like the Last Supper Table, where you can eat alongside dinosaurs. A perfect destination for family fun and adventure!
                   </p>
                   <div className="box-btn fx">
                     <Link href="/about">
@@ -403,12 +425,11 @@ const Index = () => {
               <div className="title-heading st-3">
                 <div className="sub-heading clr-pri-3 f-mulish">
                   <LeftArrow />
-                  <span className="inner-sub st-1">Latest Program</span>
+                  <span className="inner-sub st-1">Explore Our Attractions</span>
                   <RightArrow />
                 </div>
-                <h2 className="title clr-pri-2">
-                  We Provide Awesome Program To Build Bright Future
-                </h2>
+                <h4 className="title clr-pri-2">
+                Explore Dino World: Dinosaurs, Water Park, Adventure Zone, Playground, and Food.</h4>
               </div>
             </div>
             <div className="col-12">

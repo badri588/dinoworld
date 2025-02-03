@@ -29,7 +29,10 @@ const Header1 = () => {
               <div id="site-logo" className="clearfix">
                 <Link href="/">
                   <a className="logo st-2">
-                    <img src="assets/images/logo/logodark-2.png" alt="Kinco" />
+                    <img 
+                    // src="assets/images/logo/logodark-2.png" ;
+                    src="https://img.freepik.com/free-vector/font-design-word-dino-party-with-apatosaurus-egss_1308-46122.jpg?t=st=1738585416~exp=1738589016~hmac=cee3b535f8b26eeba428a0301ccbeaf96b64caa1c6623db121e40df28f73b883&w=1380" width="200px"
+                    alt="Kinco" />
                   </a>
                 </Link>
               </div>
@@ -53,8 +56,10 @@ const Header1 = () => {
                     </g>
                   </svg>
                   <ul>
-                    <li className="clr-pri-4">School Location</li>
-                    <li className="clr-pri-2">55 Main Street, New York</li>
+                    <li className="clr-pri-4">Location</li>
+                    <li className="clr-pri-2">
+                      Banda Ravirala Village, Abdullahpurmet ,
+                    </li>
                   </ul>
                 </div>
                 <div className="inner-contact fx">
