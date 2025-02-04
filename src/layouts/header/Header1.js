@@ -193,7 +193,7 @@ const Header1 = () => {
                     <Link href="#">Gallery</Link>
                     </li>
                     <li className="inner">
-                    <Link href="/pricing">pricing</Link>
+                    <Link href="/pricing">Packages</Link>
                     </li>
                   </ul>
                   {/* /.menu */}
