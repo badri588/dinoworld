@@ -3911,7 +3911,8 @@
 .sc-pricing {
   background: url(../images/background/bg-tab.png) center center no-repeat;
   width: calc(33.333% - 30px);
-  padding: 35px 65px 60px 47px;
+  /* padding: 35px 175px 60px 17px; */
+  padding: 2%;
   margin-left: 30px;
   position: relative;
 }

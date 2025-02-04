@@ -16,7 +16,7 @@ const LatestProgramSlider = () => {
             <div className="box-feature">
               <img
                 // src="assets/images/common/slider-courses-1.jpg"
-                src="https://img.freepik.com/free-vector/tyrannosaurus-rex-dinosaur-skateboard-cartoon-style_1308-90856.jpg?t=st=1738587938~exp=1738591538~hmac=1106a1961e964d1210a3310b1e4f2d87d219865b1fc6d0b6fb078b54f78f795d&w=740"
+                src="https://img.freepik.com/free-photo/extinct-triceratops-dinosaur-with-natural-habitat_23-2151647006.jpg?t=st=1738675124~exp=1738678724~hmac=61ac5b4f3d49c3637052926421a6bf4c8929e002bd0fa7ffa19a2791ba520bbd&w=1060"
                 alt="Image"
               />
             </div>
@@ -59,7 +59,7 @@ const LatestProgramSlider = () => {
             <div className="box-feature">
               <img
                 // src="assets/images/common/slider-courses-2.jpg"
-src="https://img.freepik.com/free-vector/indoor-water-park-illustration_1284-8157.jpg?t=st=1738588490~exp=1738592090~hmac=5c3571953a6534a2476c1e421067803d07c58546579bd4347532f6be7998b079&w=740"                alt="Image"
+src="https://img.freepik.com/free-photo/colourful-plastic-slides-water-park-sunlight_1150-12378.jpg?t=st=1738674638~exp=1738678238~hmac=f94e20d0a92cf220dfcf9070ec548fcbbe66f2d4515ea0087386b06a1339a456&w=1060"                alt="Image"
               />
             </div>
             <div className="box-content">
@@ -154,7 +154,7 @@ src="https://img.freepik.com/free-vector/indoor-water-park-illustration_1284-815
             <div className="box-feature">
               <img
                 // src="assets/images/common/slider-courses-2.jpg"
-                src="https://img.freepik.com/free-vector/children-with-different-race-playing-playground_1308-138151.jpg?t=st=1738588819~exp=1738592419~hmac=43abe254742d8ea2cc07307d32b425bedb958fb1f34856eac80d6784addf1482&w=826"
+                src="https://img.freepik.com/free-photo/man-having-glass-wine_107420-65895.jpg?t=st=1738674845~exp=1738678445~hmac=4f97a7481ccdee0897b3ec6e90f5c855d08b202d2180814ab513b7afb46fbd39&w=1060"
                 alt="Image"
               />
             </div>
@@ -162,13 +162,13 @@ src="https://img.freepik.com/free-vector/indoor-water-park-illustration_1284-815
               <div className="box-wrap">
                 <h4 className="title">
                   <Link href="/classe-details">
-                    <a>Playground
+                    <a>Food
 
 </a>
                   </Link>
                 </h4>
                 <p className="sub f-mulish">
-                Let the kids have a blast with trampolines, slides, swings, and a variety of fun games, making it the perfect spot for endless playtime!                </p>
+                Indulge in a variety of delicious meals at our multi-cuisine food court, offering vegetarian, non-vegetarian, and kid-friendly options to keep everyone energized and happy!                </p>
               </div>
               {/* <ul>
                 <li>

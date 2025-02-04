@@ -7,7 +7,7 @@ import SwiperCore, {
 SwiperCore.use([Pagination, Navigation, EffectFade, Autoplay]);
 
 export const heroSlider = {
-  loop: true,
+  loop: false,
   autoplay: {
     delay: 6000,
     disableOnInteraction: false,
@@ -17,10 +17,11 @@ export const themesflatcarousel = {
   loop: true,
   speed: 1400,
   spaceBetween: 30,
-  autoplay: {
-    delay: 6000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 6000,
+  //   disableOnInteraction: false,
+  // },
+  autoplay: false,
   pagination: {
     el: ".owl-dots",
     clickable: true,

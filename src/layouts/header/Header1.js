@@ -21,7 +21,7 @@ const Header1 = () => {
       "counter-scroll header-fixed main";
   }, []);
   return (
-    <header id="site-header" className="header_main d-none d-xl-block">
+    <header id="site-header" className="header_main d-none  d-xl-block">
       <div className="container">
         <div className="row">
           <div className="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6">
@@ -30,8 +30,8 @@ const Header1 = () => {
                 <Link href="/">
                   <a className="logo st-2">
                     <img 
-                    // src="assets/images/logo/logodark-2.png" ;
-                    src="https://img.freepik.com/free-vector/font-design-word-dino-party-with-apatosaurus-egss_1308-46122.jpg?t=st=1738585416~exp=1738589016~hmac=cee3b535f8b26eeba428a0301ccbeaf96b64caa1c6623db121e40df28f73b883&w=1380" width="200px"
+                    // src="assets/images/logo/logodark.png" 
+                    src="https://scontent.fhyd11-3.fna.fbcdn.net/v/t39.30808-6/307764210_766767721384065_3834160647134125181_n.png?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=pfUwkNkxnI0Q7kNvgFRxxia&_nc_oc=Adiib395ak3P-n5GO-LYvY45IdRGhJfBmbP6-wZoYDMLiZy2lJQRVRWk5pQc0_8Pj0zXaPIh7VDLOjL6tDPVZbwK&_nc_zt=23&_nc_ht=scontent.fhyd11-3.fna&_nc_gid=AHshZaORY-oYtG8N8iXUguY&oh=00_AYAdNBxOhy7FpvdMTmpP6o339okhwwxXIw9yd-_oVWJKCQ&oe=67A7D256" width="100px"
                     alt="Kinco" />
                   </a>
                 </Link>
@@ -81,10 +81,11 @@ const Header1 = () => {
                   </svg>
                   <ul>
                     <li className="clr-pri-4">Hotline</li>
-                    <li className="clr-pri-2">+012 (345) 678</li>
+                    <li className="clr-pri-2">9000924143
+                    </li>
                   </ul>
                 </div>
-                <a
+                {/* <a
                   href="#"
                   className="menu-bar-right header-menu"
                   onClick={() => setSidebarToggle(true)}
@@ -119,28 +120,28 @@ const Header1 = () => {
                       </g>
                     </g>
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
-          <div className="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6">
-            <div className="site-header-inner st-2 fx">
+          <div className="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 bg-warnin ">
+            <div className="site-header-inne st-2 fx bg-success px-3">
               <div className="btn-menu">
                 <span />
               </div>
-              <div className="nav-wrap">
+              <div className="nav-wrap ">
                 <nav id="mainnav" className="mainnav st-2">
                   <ul className="menu">
                     <li className="menu-item-has-children current-menu-item">
-                      <a href="#">HOME</a>
+                      <a href="/">HOME</a>
                       <ul className="sub-menu">
-                        <Home />
+                        {/* <Home /> */}
                       </ul>
                     </li>
                     <li className="menu-item">
                       <About />
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <a>PAGES</a>
                       <ul className="sub-menu">
                         <li className="inner-menu-item">
@@ -181,9 +182,18 @@ const Header1 = () => {
                       <ul className="sub-menu">
                         <Shop />
                       </ul>
-                    </li>
+                    </li> */}
                     <li className="inner">
                       <Contact />
+                    </li>
+                    <li className="inner">
+                    <Link href="#">Activities</Link>
+                    </li>
+                    <li className="inner">
+                    <Link href="#">Gallery</Link>
+                    </li>
+                    <li className="inner">
+                    <Link href="/pricing">pricing</Link>
                     </li>
                   </ul>
                   {/* /.menu */}
@@ -193,7 +203,7 @@ const Header1 = () => {
           </div>
         </div>
       </div>
-      <Sidebar show={sidebarToggle} close={() => setSidebarToggle(false)} />
+      {/* <Sidebar show={sidebarToggle} close={() => setSidebarToggle(false)} /> */}
     </header>
   );
 };

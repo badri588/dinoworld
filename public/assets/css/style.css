@@ -1097,6 +1097,16 @@ a:focus {
     --primary-color9 : #fab319;
 }
   
+
+
+/* own styles */
+
+
+
+
+
+
+
 /* Header
 -------------------------------------------------------------- */
 #site-header {
@@ -1158,6 +1168,9 @@ a:focus {
 .logo {
     line-height: 96px;
 }
+/* .logo img {
+    width: 20%;
+} */
 
 .logo.st-2 {
     line-height: 105px;

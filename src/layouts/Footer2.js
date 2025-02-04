@@ -50,7 +50,7 @@ const Footer2 = () => {
                     <Link href="/">
                       <a>
                         <img
-                          src="assets/images/logo/logofootert.png"
+                          src="assets/images/logo/logodark.png"
                           alt="kinco"
                         />
                       </a>

@@ -111,7 +111,7 @@ const Index = () => {
                           <div className="image">
                             <img
                               // src="assets/images/common/slider-1.png"
-                              src="https://img.freepik.com/free-vector/scene-with-dinosaurs-brontosaurus-island_1308-102944.jpg?t=st=1738584743~exp=1738588343~hmac=e2a2354c666532424e164fa47a4646f0b12e3d707d6c3cbe62eba0588ae9fe71&w=740"
+                              src="https://img.freepik.com/free-photo/extinct-triceratops-dinosaur-with-natural-habitat_23-2151646969.jpg?t=st=1738672858~exp=1738676458~hmac=d42677744baf6fe10901a35910c97061186dffeb8fde1f69482e332b752c0062&w=740"
                               alt="Image"
                             />
                           </div>
@@ -386,7 +386,7 @@ const Index = () => {
                 >
                   <img
                   //  src="assets/images/pattern/about-us-3.png"
-                  src="https://img.freepik.com/free-vector/font-word-dinosaur-with-triceratops-forest_1308-42806.jpg?t=st=1738587474~exp=1738591074~hmac=28993ee3a44e249e215981129bab204b1a56ee851f78ad52584eb1ad1fe11b17&w=826"
+                  src="https://img.freepik.com/free-photo/sauropod-dinosaur-nature_23-2151535256.jpg?t=st=1738672918~exp=1738676518~hmac=49e5939724e683bd9ad1861422aa447f453911448000a63e94677b6d8dab8cda&w=740"
                     alt="Image" />
                 </div>
                 <div className="sc-about-content">
@@ -594,7 +594,9 @@ const Index = () => {
                   data-wow-delay="0.3ms"
                   data-wow-duration="1300ms"
                 >
-                  <img src="assets/images/pattern/service-2.png" alt="Image" />
+                  {/* <img src="assets/images/pattern/service-2.png" alt="Image" /> */}
+
+                  <img src="https://img.freepik.com/free-photo/extinct-triceratops-dinosaur-with-natural-habitat_23-2151646975.jpg?t=st=1738674303~exp=1738677903~hmac=68b825a8e052971cb684fc2f12c6d10266557eed630c1d550968d71f827ffc40&w=740" alt="image" />
                 </div>
                 <div className="box-content">
                   <div className="title-heading">

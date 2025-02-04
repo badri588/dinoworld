@@ -34,12 +34,13 @@ const Contact = () => {
                 <div className="content">
                   <h4>Supports and Info</h4>
                   <p className="desc">
-                    Edipiscin elitsed eiusmod incididunt dolore magna
-                    suspendisse
+                  Discover everything you need to know about Dino World! From park guidelines to  offerings, we’re here to ensure your visit is seamless and enjoyable.
+
+
                   </p>
-                  <a href="#" className="fl-btn st-5">
+                  {/* <a href="#" className="fl-btn st-5">
                     <span className="inner">Contact Us</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -53,14 +54,16 @@ const Contact = () => {
                   <img src="assets/images/common/sc-faq2.png" alt="Image" />
                 </div>
                 <div className="content">
-                  <h4>News and Updates</h4>
+                  <h4>News and Updates
+                  </h4>
                   <p className="desc">
-                    Edipiscin elitsed eiusmod incididunt dolore magna
-                    suspendisse
+                  Stay updated on the latest happenings at Dino World! Be the first to know about new attractions, seasonal events, and special promotions.
+
+
                   </p>
-                  <a href="#" className="fl-btn st-5">
+                  {/* <a href="#" className="fl-btn st-5">
                     <span className="inner">Contact Us</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -76,19 +79,18 @@ const Contact = () => {
                 <div className="content">
                   <h4>Events and Programs</h4>
                   <p className="desc">
-                    Edipiscin elitsed eiusmod incididunt dolore magna
-                    suspendisse
+                  Plan unforgettable events and participate in our engaging programs! Dino World offers unique experiences for parties, educational tours, and adventure seekers.
                   </p>
-                  <a href="#" className="fl-btn st-5">
+                  {/* <a href="#" className="fl-btn st-5">
                     <span className="inner">Contact Us</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="tf-section tf-contact">
+      <section className="tf-section tf-contact mt-5 pt-5">
         <div className="container">
           <div className="row">
             <div className="col-md-5">
@@ -98,11 +100,11 @@ const Contact = () => {
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2 m-b26">
-                  Feel Free To Contact Us For More Info
+                Supports and Info
+
                 </h2>
                 <p className="f-mulish">
-                  Consectetur adipiscin elitsed eiusmod tempor incidide labore
-                  magna aliqua suspendisse gravida commodo
+                Have you ever wondered how it would feel to live in the Jurassic Age, well now you can experience it with a visit to the Dino World Theme Park.
                 </p>
               </div>
               <div className="wrap-contact">
@@ -125,7 +127,8 @@ const Contact = () => {
                   </div>
                   <div className="content">
                     <p>Address</p>
-                    <h4>55 Main Street, New York</h4>
+                    <h6>293/E Banda Ravirala Village, Abdullahpurmet Mandal, R.R District
+                    </h6>
                   </div>
                 </div>
                 <div className="fx Email">
@@ -148,7 +151,7 @@ const Contact = () => {
                   </div>
                   <div className="content">
                     <p>Email Address</p>
-                    <h4>support@gmail.com</h4>
+                    <h6>dinoworldhyd@gmail.com</h6>
                   </div>
                 </div>
                 <div className="fx phone">
@@ -170,7 +173,8 @@ const Contact = () => {
                   </div>
                   <div className="content">
                     <p>Hotline</p>
-                    <h4>+012 (345) 678</h4>
+                    <h6>+91 90009 24143
+                    </h6>
                   </div>
                 </div>
               </div>
@@ -190,9 +194,13 @@ const Contact = () => {
       <section>
         <div className="tf-section map">
           <div className="flat-map">
+
+          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.5335902297825!2d78.7018578751649!3d17.386162183500822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb75b0a6dd1e3f%3A0x32a458ebe48f15df!2sDino%20World%20Dinosaur%20Park%20Hyderabad!5e0!3m2!1sen!2sin!4v1738666161955!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+
+
             <iframe
               className="map-content wow fadeInUp   animated"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4457.30210514409!2d144.9550716623184!3d-37.818421643591336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd5a05d97%3A0x3e64f855a564844d!2s121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1631871760998!5m2!1svi!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.5335902297825!2d78.7018578751649!3d17.386162183500822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb75b0a6dd1e3f%3A0x32a458ebe48f15df!2sDino%20World%20Dinosaur%20Park%20Hyderabad!5e0!3m2!1sen!2sin!4v1738666161955!5m2!1sen!2sin"
               width={1720}
               height={655}
               style={{
@@ -206,7 +214,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <section className="tf-section tf-message">
+      {/* <section className="tf-section tf-message">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
@@ -280,7 +288,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
