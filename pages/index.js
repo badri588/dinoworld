@@ -443,8 +443,8 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <TfCounter />
-      <section className="tf-section tf-employee">
+      {/* <TfCounter /> */}
+      {/* <section className="tf-section tf-employee">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -564,13 +564,12 @@ const Index = () => {
                     </SwiperSlide>
                   </Swiper>
                 </div>
-                {/*/.themesflat-carousel*/}
               </div>
-              {/*/.slider-2*/}
+             
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="tf-section tf-gallery">
         <div className="container-fluid">
           <div className="row">
@@ -603,16 +602,13 @@ const Index = () => {
                       <span className="inner-sub st-2">Why Choose Us</span>
                       <RightArrow />
                     </div>
-                    <h2 className="title clr-pri-2">
-                      25 Years Of Experience In Education! Provide Awesome
-                      Features{" "}
-                    </h2>
+                    <h3 className="title clr-pri-2">
+                    A Unique Experience at Dino World! Explore Amazing Features{" "}
+                    </h3>
                   </div>
                   {/*/.title-heading*/}
-                  <p className="wrap f-mulish">
-                    Sit amet consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolores magna aliqua suspendisse
-                    ultrices gravida commodo viverra maecenas
+                  <p className="wrap f-mulish text-justify">
+                  Step into the world of dinosaurs, adventure, and fun! Discover what makes Dino World the ultimate destination for excitement and learning.
                   </p>
                   <div className="inner fx">
                     <div className="sc-services-2 fx mg-bt-25">
@@ -637,13 +633,12 @@ const Index = () => {
                       </div>
                       <div className="content">
                         <h4 className="title">
-                          <Link href="/about">
-                            <a>Arts &amp; Drawing</a>
-                          </Link>
+                          {/* <Link href="/about"> */}
+                            <a>Dinosaur Exhibits</a>
+                          {/* </Link> */}
                         </h4>
-                        <p className="sub f-mulish">
-                          Consectetur adipiscin elitsed tempor incididunt
-                        </p>
+                        <p className="sub f-mulish ">
+                        Experience life-sized, animatronic dinosaurs that roar and move, offering a glimpse into the Jurassic era.</p>
                       </div>
                     </div>
                     <div className="sc-services-2 fx mg-bt-25">
@@ -668,13 +663,12 @@ const Index = () => {
                       </div>
                       <div className="content">
                         <h4 className="title">
-                          <Link href="/classes">
-                            <a>Digital Laboratory</a>
-                          </Link>
+                          {/* <Link href="/classes"> */}
+                            <a>Water Park</a>
+                          {/* </Link> */}
                         </h4>
                         <p className="sub f-mulish">
-                          Consectetur adipiscin elitsed tempor incididunt
-                        </p>
+                        Beat the heat with thrilling water slides, a wave pool, and a rain dance zone for all ages.</p>
                       </div>
                     </div>
                     <div className="sc-services-2 fx">
@@ -699,13 +693,13 @@ const Index = () => {
                       </div>
                       <div className="content">
                         <h4 className="title">
-                          <Link href="/events">
-                            <a>Events &amp; Party</a>
-                          </Link>
+                          {/* <Link href="/events"> */}
+                            <a>Adventure Zone
+                            </a>
+                          {/* </Link> */}
                         </h4>
                         <p className="sub f-mulish">
-                          Consectetur adipiscin elitsed tempor incididunt
-                        </p>
+                        Test your limits with a high rope course, ziplining, and obstacle challenges, perfect for adrenaline seekers.</p>
                       </div>
                     </div>
                     <div className="sc-services-2 fx">
@@ -730,13 +724,12 @@ const Index = () => {
                       </div>
                       <div className="content">
                         <h4 className="title">
-                          <Link href="/about">
-                            <a>Special Education</a>
-                          </Link>
+                          {/* <Link href="/about"> */}
+                            <a>Playground Fun</a>
+                          {/* </Link> */}
                         </h4>
                         <p className="sub f-mulish">
-                          Consectetur adipiscin elitsed tempor incididunt
-                        </p>
+                        Let the little ones enjoy trampolines, swings, slides, and endless playtime activities.</p>
                       </div>
                     </div>
                   </div>
@@ -753,12 +746,13 @@ const Index = () => {
               <div className="title-heading st-3">
                 <div className="sub-heading clr-pri-3 f-mulish">
                   <LeftArrow />
-                  <span className="inner-sub st-1">Parents Feedback</span>
+                  <span className="inner-sub st-1">Visitor Feedback
+                  </span>
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
-                  What Parents Say About Our{" "}
-                  <span className="clr-pri-3">Kindco</span> Kindergarten
+                What Visitors Say About Dino World  {" "}
+                  {/* <span className="clr-pri-3">Kindco</span> Kindergarten */}
                 </h2>
               </div>
             </div>
@@ -775,11 +769,12 @@ const Index = () => {
       </section>
       <section className="tf-section tf-register">
         <img
-          src="assets/images/background/bg-register.png"
+          // src="assets/images/background/bg-register.png"
+          src="https://media1.thrillophilia.com/filestore/x7631yz5byjuovw55iz045kg1qs6_2019-09-01.jpg?h=441&w=auto&dpr=1.25"
           alt="Image"
           className="feature-register"
         />
-        <div className="container">
+        {/* <div className="container">
           <div className="row">
             <div className="col-12">
               <div className="title-heading st-5">
@@ -870,9 +865,12 @@ const Index = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
-      <section className="tf-section tf-sc-blog2">
+
+
+      {/* banner images */}
+      {/* <section className="tf-section tf-sc-blog2">
         <img
           className="feature-blog-1"
           src="assets/images/patternphoto/feauture-blog-1.png"
@@ -1075,7 +1073,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer2 />
     </Layout>
   );

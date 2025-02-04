@@ -18,18 +18,17 @@ const TestimonialSlider = () => {
               </div>
               <ul>
                 <li>
-                  <h4 className="name-author clr-pri-2">Bradley Y. Grimes</h4>
+                  <h4 className="name-author clr-pri-2">Rajeshwari K.
+                  </h4>
                 </li>
-                <li>
+                {/* <li>
                   <p className="clr-pri-5 f-mulish">Senior Manager</p>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="wrap">
               <p className="clr-pri-2">
-                “ On the other hand denounce with righteous indignation and
-                dislike men who are so beguiled and demoralized by the charms of
-                pleasure of the moment”
+                “ Dino World is a fantastic place for kids and adults alike. My children loved the dinosaur exhibits, and the water park was a refreshing treat! ”
               </p>
             </div>
           </div>
@@ -52,18 +51,17 @@ const TestimonialSlider = () => {
               </div>
               <ul>
                 <li>
-                  <h4 className="name-author clr-pri-2">Bradley Y. Grimes</h4>
+                  <h4 className="name-author clr-pri-2">Venkatesh R.
+                  </h4>
                 </li>
-                <li>
+                {/* <li>
                   <p className="clr-pri-5 f-mulish">Senior Manager</p>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="wrap">
               <p className="clr-pri-2">
-                “ On the other hand denounce with righteous indignation and
-                dislike men who are so beguiled and demoralized by the charms of
-                pleasure of the moment”
+                “ The adventure zone was thrilling! My family had a great time ziplining and exploring the rope courses. Highly recommend Dino World! ”
               </p>
             </div>
           </div>
@@ -83,18 +81,17 @@ const TestimonialSlider = () => {
               </div>
               <ul>
                 <li>
-                  <h4 className="name-author clr-pri-2">Bradley Y. Grimes</h4>
+                  <h4 className="name-author clr-pri-2">Swapna T.
+                  </h4>
                 </li>
-                <li>
+                {/* <li>
                   <p className="clr-pri-5 f-mulish">Senior Manager</p>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="wrap">
               <p className="clr-pri-2">
-                “ On the other hand denounce with righteous indignation and
-                dislike men who are so beguiled and demoralized by the charms of
-                pleasure of the moment”
+                “ The animatronic dinosaurs were so realistic and educational. My students learned so much while having fun. Perfect for school trips! ”
               </p>
             </div>
           </div>
@@ -117,7 +114,8 @@ const TestimonialSlider = () => {
               </div>
               <ul>
                 <li>
-                  <h4 className="name-author clr-pri-2">Bradley Y. Grimes</h4>
+                  <h4 className="name-author clr-pri-2">Nagarjuna M.
+                  </h4>
                 </li>
                 <li>
                   <p className="clr-pri-5 f-mulish">Senior Manager</p>
@@ -126,9 +124,7 @@ const TestimonialSlider = () => {
             </div>
             <div className="wrap">
               <p className="clr-pri-2">
-                “ On the other hand denounce with righteous indignation and
-                dislike men who are so beguiled and demoralized by the charms of
-                pleasure of the moment”
+                “ From the playground to the food court, Dino World offers something for everyone. It's an amazing place to relax and enjoy quality time with family! ”
               </p>
             </div>
           </div>
