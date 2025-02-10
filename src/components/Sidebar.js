@@ -11,15 +11,15 @@ const Sidebar = ({ show, close }) => {
           <a
             href="#"
             className="side-menu__toggler side-menu__close-btn"
-            onClick={close}
+            onClick={close}  
           >
-            <img src="assets/images/common/close.png" alt="images" />
+            {/* <img src="assets/images/common/close.png" alt="images" /> */}
           </a>
         </div>
         <div className="wrap">
           <div className="widget widget-quote">
             <div className="box-feature">
-              <div className="inner">
+              <div className="inner">               
                 {/* <img src="assets/images/post/post-quotes2.jpg" alt="Image" /> */}
                 <div className="box-icon jus-ali-ct">
                   <i className="far fa-quote-right" />
@@ -29,7 +29,7 @@ const Sidebar = ({ show, close }) => {
             <div className="box-content">
               <h5 className="author clr-pri-2">Badri</h5>
               <p className="wrap f-rubik">
-               hi this is badri i  am developing a website
+               i  am developing DINOWORLD  website
               </p>
             </div>
           </div>

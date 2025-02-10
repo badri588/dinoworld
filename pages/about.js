@@ -17,48 +17,53 @@ const About = () => {
             <div className="ol-xl-7 col-lg-7 col-md-12">
               <div className="wrap-image ps-re">
                 <img
-                  src="assets/images/background/bg-aboutus-2.png"
-                  alt=""
-                  className="bg1-about"
+                  // src="assets/images/background/bg-aboutus-2.png"
+                  // alt=""
+                  // className="bg1-about"
+                  // src="https://worldscreenings.com/wp-content/uploads/2023/09/Amazing_Dinoworld_2-NHK-1023.jpg"
+                  // alt="dinosor"
                 />
                 <div className="fx m-b32 align-fl-end">
                   <div
-                    className="image m-r30 wow fadeIn animated"
+                    className="image m-r30 wow fadeIn animated h-300px w-284px"
                     data-wow-delay="0.3ms"
                     data-wow-duration="1200ms"
+
                   >
                     <img
-                      src="assets/images/common/sc-about1.jpg"
+                      // src="assets/images/common/sc-about1.jpg"
+                      src="https://worldscreenings.com/wp-content/uploads/2023/09/Amazing_Dinoworld_2-NHK-1023.jpg"
                       alt="Images"
                     />
                   </div>
                   <div
-                    className="image wow fadeIn animated"
+                    className="image wow fadeIn animated h-275px w-284px"
                     data-wow-delay="0.3ms"
                     data-wow-duration="1200ms"
                   >
                     <img
-                      src="assets/images/common/sc-about2.jpg"
+                      // src="assets/images/common/sc-about2.jpg"
+                         src="https://findabikelive.blob.core.windows.net/bikes/btwin-rockrider-740s-v2-275-mountain-bike-white-rockrider-740s-v2-275-mountain-bike-white-2017_17-large.jpg"
                       alt="Images"
                     />
                   </div>
                 </div>
-                <div className="image p-l70">
-                  <img src="assets/images/common/sc-about3.jpg" alt="Images" />
+                <div className="image ">
+                  {/* <img src="assets/images/common/sc-about3.jpg" alt="Images" /> */}
+                  <img src="https://cdn.pixabay.com/photo/2017/09/10/13/01/dino-2735490_1280.jpg" alt="nature" />
                 </div>
                 <div
-                  className="box-parents wow fadeInUp animated"
-                  data-wow-delay="0.3ms"
-                  data-wow-duration="1200ms"
+                 
+                 
                 >
-                  <h5 className="clr-pri-2 title">
+                  {/* <h5 className="clr-pri-2 title">
                     <span className="clr-pri-3">25638+</span>Parents Say About
                     Our School
-                  </h5>
-                  <ul className="fx">
+                  </h5> */}
+                  {/* <ul className="fx">
                     <li>
                       <img
-                        src="assets/images/thumbnails/list-quote-5.jpg"
+                        src="https://lh3.googleusercontent.com/Z5x-IxcrtTIhu1OZTM26YsetYY2kZI_a-uFlix1j-IEf-1T0SgNAMX7wbyHDd01EtRtYnQZ5sGyj=w1440-ns-nd-rj"
                         alt="Image"
                       />
                     </li>
@@ -91,8 +96,8 @@ const About = () => {
                         src="assets/images/thumbnails/list-quote-6.jpg"
                         alt="Image"
                       />
-                    </li>
-                  </ul>
+                    </li> */}
+                  {/* </ul> */}
                 </div>
               </div>
             </div>
@@ -100,15 +105,16 @@ const About = () => {
               <div className="sc-about-2 p-t19">
                 <div className="title-heading">
                   <div className="sub-heading clr-pri-3 f-mulish">
-                    <span className="inner-sub st-2">About Us</span>
+                    <span className="inner-sub st-2">  Address:</span>
                     <RightArrow />
                   </div>
                   <h2 className="title clr-pri-2">
-                    We Learn Smart Way To Build Bright Futute
+                
+                  293/E Banda Ravirala Village, Abdullahpurmet Mandal, R.R District
                   </h2>
                 </div>
                 <div className="inner">
-                  <p
+                  {/* <p
                     className="wrap f-mulish clr-pri-4  wow fadeIn animated"
                     data-wow-delay="0.3ms"
                     data-wow-duration="1000ms"
@@ -116,27 +122,27 @@ const About = () => {
                     Amet consectetur adipiscin elitsed eiusmod tempor incididunt
                     labore et dolore magna aliqua. Quis ipsum suspendisse
                     ultrices gravida. Risus commodo maecenas accumsan
-                  </p>
-                  <h4 className="title-line">
+                  </p> */}
+                  {/* <h4 className="title-line">
                     Most Successful Results Institute For kindergarten Since
                     2021
-                  </h4>
+                  </h4> */}
                   <ul>
                     <li className="st-1 fx">
                       <i className="fas fa-check" />
-                      <p className="clr-pri-2">Outdoor Games</p>
+                      <p className="clr-pri-2">Water Park</p>
                     </li>
                     <li className="st-2 fx">
                       <i className="fas fa-check" />
-                      <p className="clr-pri-2">Sport Activites</p>
+                      <p className="clr-pri-2"> Adventure Zone</p>
                     </li>
                     <li className="st-3 fx">
                       <i className="fas fa-check" />
-                      <p className="clr-pri-2">Nutritious Foods</p>
+                      <p className="clr-pri-2">Live Shows</p>
                     </li>
                     <li className="st-4 fx">
                       <i className="fas fa-check" />
-                      <p className="clr-pri-2">Event &amp; Party</p>
+                      <p className="clr-pri-2"> Fossil Digging</p>
                     </li>
                   </ul>
                   <Link href="/testimonials">
@@ -161,7 +167,7 @@ const About = () => {
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
-                  We Do Something Better For Bright Children Future Activities
+                Here are some activities for Dino World:
                 </h2>
               </div>
             </div>
@@ -195,12 +201,11 @@ const About = () => {
                     <div className="box-content">
                       <h4 className="title">
                         <Link href="/classes">
-                          <a>Study &amp; Game</a>
+                          <a>Dinosaur Park</a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
-                        Sed ut perspiciatis unde omnis iste natu voluptatem
-                        accus antium dolorem
+                      Life-sized dinosaur exhibits and interactive experiences
                       </p>
                       <Link href="/classes">
                         <a className="fl-btn st-13">
@@ -235,12 +240,11 @@ const About = () => {
                     <div className="box-content">
                       <h4 className="title">
                         <Link href="/program">
-                          <a>Event &amp; Programs</a>
+                          <a>Water Park </a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
-                        Sed ut perspiciatis unde omnis iste natu voluptatem
-                        accus antium dolorem
+                      Thrilling water slides, wave pools, and lazy rivers
                       </p>
                       <Link href="/program">
                         <a className="fl-btn st-13">
@@ -277,12 +281,11 @@ const About = () => {
                     <div className="box-content">
                       <h4 className="title">
                         <Link href="/teacher">
-                          <a>Competitions</a>
+                          <a>Adventure Zone </a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
-                        Sed ut perspiciatis unde omnis iste natu voluptatem
-                        accus antium dolorem
+                      Ziplining, rope courses, and rock climbing
                       </p>
                       <Link href="/teacher">
                         <a className="fl-btn st-13">
@@ -320,12 +323,11 @@ const About = () => {
                     <div className="box-content">
                       <h4 className="title">
                         <Link href="/events">
-                          <a>Outdoor Games</a>
+                          <a>Kids’ Playground</a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
-                        Sed ut perspiciatis unde omnis iste natu voluptatem
-                        accus antium dolorem
+                      Fun rides, slides, and play areas for children
                       </p>
                       <Link href="/events">
                         <a className="fl-btn st-13">
@@ -348,11 +350,11 @@ const About = () => {
               <div className="title-heading st-1">
                 <div className="sub-heading clr-pri-3 f-mulish">
                   <LeftArrow />
-                  <span className="inner-sub st-1">Meet Our Teacher</span>
+                  <span className="inner-sub st-1">Step into the Jurassic</span>
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
-                  We Have Lot’s Of Experience Teacher To Teach The Students
+                A Thrilling Adventure Through Time!
                 </h2>
               </div>
             </div>
@@ -370,12 +372,15 @@ const About = () => {
                         data-wow-duration="800ms"
                       >
                         <div className="box-feature">
-                          <img
+                          {/* <imge
                             src="assets/images/common/sc-employee-1.jpg"
                             alt="Image"
-                          />
+                            
+                          /> */}
+                          <img src="https://cdn.pixabay.com/photo/2023/04/06/01/44/man-7902570_1280.jpg" alt="image" />
+
                         </div>
-                        <div className="box-content st-1">
+                        {/* <div className="box-content st-1">
                           <h4 className="name">
                             <Link href="/teacher-details">
                               <a className="clr-pri-1">Patrick K. Carlson</a>
@@ -398,7 +403,7 @@ const About = () => {
                               <i className="fab fa-linkedin-in" />
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -408,12 +413,13 @@ const About = () => {
                         data-wow-duration="1000ms"
                       >
                         <div className="box-feature">
-                          <img
+                          {/* <img
                             src="assets/images/common/sc-employee-2.jpg"
                             alt="Image"
-                          />
+                          /> */}
+                          <img src="https://cdn.pixabay.com/photo/2023/10/16/10/51/fox-8318961_1280.png" alt="image" />
                         </div>
-                        <div className="box-content st-2">
+                        {/* <div className="box-content st-2">
                           <h4 className="name">
                             <Link href="/teacher-details">
                               <a className="clr-pri-1">Roderick M. Neal</a>
@@ -436,7 +442,7 @@ const About = () => {
                               <i className="fab fa-linkedin-in" />
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -446,12 +452,13 @@ const About = () => {
                         data-wow-duration="1200ms"
                       >
                         <div className="box-feature">
-                          <img
+                          {/* <img
                             src="assets/images/common/sc-employee-3.jpg"
                             alt="Image"
-                          />
+                          /> */}
+                          <img src="https://cdn.pixabay.com/photo/2024/03/05/22/04/bird-8615360_1280.jpg" alt="image" />
                         </div>
-                        <div className="box-content st-3">
+                        {/* <div className="box-content st-3">
                           <h4 className="name">
                             <Link href="/teacher-details">
                               <a className="clr-pri-1">Frank T. Norman</a>
@@ -474,7 +481,7 @@ const About = () => {
                               <i className="fab fa-linkedin-in" />
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -484,12 +491,13 @@ const About = () => {
                         data-wow-duration="1400ms"
                       >
                         <div className="box-feature">
-                          <img
+                          {/* <img
                             src="assets/images/common/sc-employee-4.jpg"
                             alt="Image"
-                          />
+                          /> */}
+                          <img src="https://cdn.pixabay.com/photo/2022/10/20/16/17/animal-7535234_1280.jpg" alt="image" />
                         </div>
-                        <div className="box-content st-4">
+                        {/* <div className="box-content st-4">
                           <h4 className="name">
                             <Link href="/teacher-details">
                               <a className="clr-pri-1">Scott M. Fletcher</a>
@@ -512,7 +520,7 @@ const About = () => {
                               <i className="fab fa-linkedin-in" />
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </SwiperSlide>
                   </Swiper>
@@ -533,13 +541,12 @@ const About = () => {
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="wrap">
+                <div className="wrap"> 
                   <h2 className="title clr-pri-1">
-                    Ready To Admit Your Child ?
+                    Ready To visit dinoworld?
                   </h2>
                   <p className="sub clr-pri-1 f-mulish">
-                    Amet consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore
+                  Plan your adventure today!
                   </p>
                 </div>
                 <div className="inner-sc-contact">
@@ -568,8 +575,8 @@ const About = () => {
                       </g>
                     </svg>
                     <ul>
-                      <li className="clr-pri-1">Hotline</li>
-                      <li className="clr-pri-1">+012 (345) 678</li>
+                      <li className="clr-pri-1">phone</li>
+                      <li className="clr-pri-1">90009 24143</li>
                     </ul>
                   </div>
                 </div>
@@ -578,6 +585,15 @@ const About = () => {
           </div>
         </div>
       </section>
+      {/* <section className="">
+        <div>
+          <h1 className="">Find Your Way to Dino World</h1>
+          <p>The theme park is located in Abdullahpurmet Mandal of Telangana, near a village called Bandaravirala. It is about 36 kilometres away from the city which is about an hour’s drive from the city centre. There are four ways you can get there which are:</p>
+           <p><strong>metro:</strong>Take a Metro and get off at L.B. Nagar metro station, walk to Putli Bowli Bus Stop and take a bus to Crusher Machines Bus Stop. From there you will get autos and rickshaws to the theme park.</p>
+           <p><strong>Bus:</strong>take a bus anywhere in the city to koti bus Terminal. You can avail direct buses heading for Crusher Machines from here every hour. So, make sure not to miss your bus or you might lose out on some fun time at the park.</p>
+           <p><strong>cab:</strong>You can book a cab from anywhere in the city. They will take you directly to Dino World Theme Park. A word of caution; cabs departing from the park are scarcely available later into the evening, which might pose a problem</p>
+        </div>
+      </section> */}
       <section className="tf-section tf-feedback">
         <div className="container">
           <div className="row">
@@ -585,12 +601,12 @@ const About = () => {
               <div className="title-heading st-3">
                 <div className="sub-heading clr-pri-3 f-mulish">
                   <LeftArrow />
-                  <span className="inner-sub st-1">Parents Feedback</span>
+                  <span className="inner-sub st-1">customers Feedback</span>
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
-                  What Parents Say About Our{" "}
-                  <span className="clr-pri-3">Kindco</span> Kindergarten
+                  What people Say About Our{" "}  
+                  <span className="clr-pri-3">dinoworld</span>
                 </h2>
               </div>
             </div>
