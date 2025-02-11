@@ -5,7 +5,8 @@ const PageBanner = ({ pageName, pageTitle }) => {
       <div className="overlay" />
       <div className="overlay-bg" />
       <img
-        src="https://www.legoland.com/california/media/0bnb1tut/llcr-dino-explore-dino-river-1280x720.jpg"
+        // src="https://www.legoland.com/california/media/0bnb1tut/llcr-dino-explore-dino-river-1280x720.jpg"
+        src=""
         className="bg-inner1"
         alt=""
       />
@@ -23,16 +24,16 @@ const PageBanner = ({ pageName, pageTitle }) => {
         <div className="row">
           <div className="col-12">
             <div className="page-title inner">
-              <h1 className="title">{pageTitle ? pageTitle : pageName}</h1>
+              <h1 className="title text-white">{pageTitle ? pageTitle : pageName}</h1>
               <div className="breadcrumbs">
                 <ul className="jus-ct">
                   <li>
                     <Link href="/">
-                      <a className="f-rubik">Home</a>
+                      <a className="f-rubik text-white">Home</a>
                     </Link>
                   </li>
                   <li>
-                    <p className="breadcrumbs-inner f-rubik">{pageName}</p>
+                    <p className="breadcrumbs-inner f-rubik text-info">{pageName}</p>
                   </li>
                 </ul>
               </div>

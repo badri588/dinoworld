@@ -28,7 +28,7 @@ const Header = () => {
       <div className="top-bar">
         <div className="inner jus-ct">
           <p className="clr-pri-1">
-            Working Jours : Sun - Friday, 08:00 am - 05:00 pm
+            Working Jours :  - Friday, 08:00 am - 05:00 pm
           </p>
         </div>
       </div>
@@ -40,7 +40,12 @@ const Header = () => {
                 <div id="site-logo" className="clearfix">
                   <Link href="/">
                     <a className="logo">
-                      <img src="assets/images/logo/logodark.png" alt="Kinco" />
+                      {/* <img 
+                      src="assets/images/logo/logodark.png" 
+                      src="https://scontent.fhyd11-3.fna.fbcdn.net/v/t39.30808-6/307764210_766767721384065_3834160647134125181_n.png?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=pfUwkNkxnI0Q7kNvgFRxxia&_nc_oc=Adiib395ak3P-n5GO-LYvY45IdRGhJfBmbP6-wZoYDMLiZy2lJQRVRWk5pQc0_8Pj0zXaPIh7VDLOjL6tDPVZbwK&_nc_zt=23&_nc_ht=scontent.fhyd11-3.fna&_nc_gid=AHshZaORY-oYtG8N8iXUguY&oh=00_AYAdNBxOhy7FpvdMTmpP6o339okhwwxXIw9yd-_oVWJKCQ&oe=67A7D256"
+                      alt="Kinco" /> */}
+                                            <h1>Dino world</h1>
+
                     </a>
                   </Link>
                 </div>
@@ -50,16 +55,16 @@ const Header = () => {
                 <div className="nav-wrap">
                   <nav id="mainnav" className="mainnav st-2">
                     <ul className="menu">
-                      <li className="menu-item-has-children">
-                        <a href="#">HOME</a>
-                        <ul className="sub-menu">
+                      <li className="menu-item-has-childre">
+                        <a href="/">HOME</a>
+                        {/* <ul className="sub-menu">
                           <Home />
-                        </ul>
+                        </ul> */}
                       </li>
                       <li className="menu-item">
                         <About />
                       </li>
-                      <li className="menu-item-has-children">
+                      {/* <li className="menu-item-has-children">
                         <a>PAGES</a>
                         <ul className="sub-menu">
                           <li className="inner-menu-item">
@@ -82,8 +87,8 @@ const Header = () => {
                           </li>
                           <Pages />
                         </ul>
-                      </li>
-                      <li className="menu-item-has-children">
+                      </li> */}
+                      {/* <li className="menu-item-has-children">
                         <a>Programs</a>
                         <ul className="sub-menu">
                           <Program />
@@ -100,7 +105,16 @@ const Header = () => {
                         <ul className="sub-menu">
                           <Shop />
                         </ul>
-                      </li>
+                      </li> */}
+                       <li className="inner">
+                    <Link href="#">Activities</Link>
+                    </li>
+                    <li className="inner">
+                    <Link href="/gallery">Gallery</Link>
+                    </li>
+                    <li className="inner">
+                    <Link href="/pricing">Packages</Link>
+                    </li>
                       <li className="inner">
                         <Contact />
                       </li>

@@ -8,14 +8,14 @@ import Layout from "../src/layouts/Layout";
 const Pricing = () => {
   return (
     <Layout bodyClass={"pricing"}>
-      <PageBanner pageName={"Pricing Plan"} />
+      <PageBanner pageName={"Package Plan"} />
       <section className="tf-section tf-pricing">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
               <div className="title-heading m-t27 b61">
                 <div className="sub-heading clr-pri-3 f-mulish">
-                  <span className="inner-sub st-2">Pricing Plan</span>
+                  <span className="inner-sub st-2">Packages Plan</span>
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
@@ -27,7 +27,7 @@ const Pricing = () => {
             <div className="col-md-12">
               <Tab.Container defaultActiveKey={"monthly"}>
                 <div className="flat-tabs">
-                  <Nav as={"ul"} className="menu-tab">
+                  {/* <Nav as={"ul"} className="menu-tab">
                     <Nav.Link as={"li"} eventKey={"monthly"} className="month">
                       <span className="fl-btn st-9">
                         <span className="inner">Basic Plan</span>
@@ -38,7 +38,7 @@ const Pricing = () => {
                         <span className="inner">Group Plan</span>
                       </span>
                     </Nav.Link>
-                  </Nav>
+                  </Nav> */}
                   <Tab.Content className="content-tab">
                     <Tab.Pane eventKey={"monthly"}>
                       <div className="content-inner">

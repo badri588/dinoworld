@@ -22,22 +22,25 @@ const Header1 = () => {
   }, []);
   return (
     <header id="site-header" className="header_main d-none  d-xl-block">
-      <div className="container">
+      <div className="container-fluid ">
         <div className="row">
-          <div className="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6">
+          <div className="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 ">
             <div className="top-bar-2 fx">
-              <div id="site-logo" className="clearfix">
+              <div id="site-logo" className="clearfix ">
                 <Link href="/">
                   <a className="logo st-2">
-                    <img 
-                    // src="assets/images/logo/logodark.png" 
+                    {/* <img 
+                    src="assets/images/logo/logodark.png" 
                     src="https://scontent.fhyd11-3.fna.fbcdn.net/v/t39.30808-6/307764210_766767721384065_3834160647134125181_n.png?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=pfUwkNkxnI0Q7kNvgFRxxia&_nc_oc=Adiib395ak3P-n5GO-LYvY45IdRGhJfBmbP6-wZoYDMLiZy2lJQRVRWk5pQc0_8Pj0zXaPIh7VDLOjL6tDPVZbwK&_nc_zt=23&_nc_ht=scontent.fhyd11-3.fna&_nc_gid=AHshZaORY-oYtG8N8iXUguY&oh=00_AYAdNBxOhy7FpvdMTmpP6o339okhwwxXIw9yd-_oVWJKCQ&oe=67A7D256" width="100px"
-                    alt="Kinco" />
+                    alt="Kinco" /> */}
+
+<h2 className="mx-5">Dino world</h2>
+
                   </a>
                 </Link>
               </div>
-              <div className="header-contact fx">
-                <div className="inner-contact fx">
+              <div className="header-contact fx ">
+                <div className="inner-contact fx ">
                   <svg
                     data-name="Hero Area"
                     xmlns="http://www.w3.org/2000/svg"
@@ -124,22 +127,24 @@ const Header1 = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 bg-warnin ">
-            <div className="site-header-inne st-2 fx bg-success px-3">
-              <div className="btn-menu">
+          <div className="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6  ">
+            <div className="site-header-inne st-2 fx bg-success px-3 ">
+              <div className="btn-menu ">
                 <span />
               </div>
               <div className="nav-wrap ">
-                <nav id="mainnav" className="mainnav st-2">
-                  <ul className="menu">
-                    <li className="menu-item-has-children current-menu-item">
-                      <a href="/">HOME</a>
-                      <ul className="sub-menu">
-                        {/* <Home /> */}
-                      </ul>
-                    </li>
+                <nav id="mainnav" className="mainn st-2 ">
+                  <ul className="menu text-center">
+                  <li className="menu-item-has-children ">
+                        <a href="/">HOME</a>
+                        {/* <ul className="sub-menu">
+                          <Home />
+                        </ul> */}
+                      </li>
+                    {/* </li> */}
                     <li className="menu-item">
-                      <About />
+                      {/* <a href="/"><About /></a> */}
+                      <a href="#">About</a>
                     </li>
                     {/* <li className="menu-item-has-children">
                       <a>PAGES</a>
@@ -183,17 +188,18 @@ const Header1 = () => {
                         <Shop />
                       </ul>
                     </li> */}
-                    <li className="inner">
-                      <Contact />
-                    </li>
+                  
                     <li className="inner">
                     <Link href="#">Activities</Link>
                     </li>
                     <li className="inner">
-                    <Link href="#">Gallery</Link>
+                    <Link href="/gallery">Gallery</Link>
                     </li>
                     <li className="inner">
                     <Link href="/pricing">Packages</Link>
+                    </li>
+                    <li className="inner">
+                      <Contact />
                     </li>
                   </ul>
                   {/* /.menu */}

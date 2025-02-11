@@ -5,6 +5,8 @@ import Footer from "./Footer";
 import Header from "./header/Header";
 import MobileMenu from "./header/MobileMenu";
 import ScrollTop from "./ScrollTop";
+import Header1 from "./header/Header1";
+import Footer2 from "./Footer2";
 
 const Layout = ({ children, noHeader, noFooter, bodyClass }) => {
   useEffect(() => {
@@ -23,8 +25,8 @@ const Layout = ({ children, noHeader, noFooter, bodyClass }) => {
     <div id="wrapper">
       <VideoPopup />
       <div id="page" className="clearfix">
-        {!noHeader && <Header />}
-        <MobileMenu /> {children} {!noFooter && <Footer />}
+        {!noHeader && <Header1 />}
+        <MobileMenu /> {children} {!noFooter && <Footer2 />}
       </div>
       <ScrollTop />
     </div>

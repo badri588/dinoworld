@@ -186,7 +186,7 @@ const Contact = () => {
                 data-wow-duration="1200ms"
               >
                 {/* <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/6b/33/be/caption.jpg?w=1000&h=-1&s=1" alt=" img" /> */}
-                <img src="assets/images/common/dino1.jpg" alt="image" />
+                <img src="assets/images/common/01-contact.jpg" alt="" />
                 {/* <img src="assets/images/dino-images/dino1" alt="1234567" /> */}
                 
               </div>

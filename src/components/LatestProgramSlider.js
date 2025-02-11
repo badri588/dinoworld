@@ -16,7 +16,7 @@ const LatestProgramSlider = () => {
             <div className="box-feature">
               <img
                 // src="assets/images/common/slider-courses-1.jpg"
-                src="https://img.freepik.com/free-photo/extinct-triceratops-dinosaur-with-natural-habitat_23-2151647006.jpg?t=st=1738675124~exp=1738678724~hmac=61ac5b4f3d49c3637052926421a6bf4c8929e002bd0fa7ffa19a2791ba520bbd&w=1060"
+                src="https://media1.thrillophilia.com/filestore/idxr2epxji9elrbzbx5a3lomwmho_77429100_2548181701966871_922305868463079424_o.jpg?h=441&w=auto&dpr=1"
                 alt="Image"
               />
             </div>
@@ -28,7 +28,7 @@ const LatestProgramSlider = () => {
                   </Link>
                 </h4>
                 <p className="sub f-mulish text-justify">
-                Step back in time and explore our impressive collection of animatronic dinosaurs, including a towering T-Rex and Spinosaurus, bringing the prehistoric world to life!                </p>
+                Step back in time and explore our impressive collection of animatronic dinosaurs, including a towering T-Rex and Spinosaurus, bringing the prehistoric world to life!</p>
               </div>
               {/* <ul>
                 <li>
@@ -101,7 +101,7 @@ src="https://img.freepik.com/free-photo/colourful-plastic-slides-water-park-sunl
             <div className="box-feature">
               <img
                 // src="assets/images/common/slider-courses-3.jpg"
-                src="https://img.freepik.com/free-vector/teenage-boy-hiking-cartoon-character_1308-133817.jpg?t=st=1738588617~exp=1738592217~hmac=c2a9eb17a5bc569a48003cae8a05441cd42a08ef84e9c68dfbcce059d5d6ac08&w=740"
+                src="https://media1.thrillophilia.com/filestore/o9egsbmlweltywm9q5cytfg040xh_DW3.png?h=441&w=auto&dpr=1.25"
                 alt="Image"
               />
             </div>

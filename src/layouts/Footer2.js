@@ -49,10 +49,12 @@ const Footer2 = () => {
                   <div className="logo-bottom" id="logo-footer">
                     <Link href="/">
                       <a>
-                        <img
+                        {/* <img
                           src="assets/images/logo/logodark.png"
+                          src="https://scontent.fhyd11-3.fna.fbcdn.net/v/t39.30808-6/307764210_766767721384065_3834160647134125181_n.png?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=pfUwkNkxnI0Q7kNvgFRxxia&_nc_oc=Adiib395ak3P-n5GO-LYvY45IdRGhJfBmbP6-wZoYDMLiZy2lJQRVRWk5pQc0_8Pj0zXaPIh7VDLOjL6tDPVZbwK&_nc_zt=23&_nc_ht=scontent.fhyd11-3.fna&_nc_gid=AHshZaORY-oYtG8N8iXUguY&oh=00_AYAdNBxOhy7FpvdMTmpP6o339okhwwxXIw9yd-_oVWJKCQ&oe=67A7D256" width="150px"  height="50px"
                           alt="kinco"
-                        />
+                        /> */}
+                        <h2>𝕯𝖎𝖓𝖔 𝖜𝖔𝖗𝖑𝖉</h2>
                       </a>
                     </Link>
                   </div>
@@ -104,27 +106,29 @@ const Footer2 = () => {
                   <h4 className="title-widget">Our Program</h4>
                   <ul className="list-link">
                     <li className="fx">
-                      <Link href="/program">
+                      <Link href="#">
+                      {/* <Link href="/program"> */}
                         <a className="wd-ctm f-mulish">Home</a>
                       </Link>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
+                      {/* <Link href="/program"> */}
+                      <Link href="#">
                         <a className="wd-ctm f-mulish">Activities </a>
                       </Link>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
+                      <Link href="#">
                         <a className="wd-ctm f-mulish">Packages</a>
                       </Link>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
+                      <Link href="#">
                         <a className="wd-ctm f-mulish">Gallery</a>
                       </Link>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
+                      <Link href="#">
                         <a className="wd-ctm f-mulish">Contact</a>
                       </Link>
                     </li>
