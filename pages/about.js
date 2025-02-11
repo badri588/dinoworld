@@ -237,6 +237,7 @@ const About = () => {
                         />
                       </svg>
                     </div>
+                    
                     <div className="box-content">
                       <h4 className="title">
                         <Link href="/program">
