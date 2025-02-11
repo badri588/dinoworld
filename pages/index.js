@@ -11,12 +11,12 @@ import {
   RightArrow,
   RightArrowWhite,
 } from "../src/Icons";
-import Footer2 from "../src/layouts/Footer2";
 import Header1 from "../src/layouts/header/Header1";
 import Layout from "../src/layouts/Layout";
 import { fourSlider, heroSlider } from "../src/SliderProps";
 import { activeNavMenu } from "../src/utils";
 import HeroSider from "../src/layouts/Hero-sileder/Hero-Silder";
+import Footer from "../src/layouts/Footer";
 
 const Index = () => {
   useEffect(() => {
@@ -929,7 +929,7 @@ const Index = () => {
           </div>
         </div>
       </section> */}
-      <Footer1 />
+      <Footer />
     </Layout>
   );
 };
