@@ -1097,6 +1097,16 @@ a:focus {
     --primary-color9 : #fab319;
 }
   
+
+
+/* own styles */
+
+
+
+
+
+
+
 /* Header
 -------------------------------------------------------------- */
 #site-header {
@@ -1158,6 +1168,9 @@ a:focus {
 .logo {
     line-height: 96px;
 }
+/* .logo img {
+    width: 20%;
+} */
 
 .logo.st-2 {
     line-height: 105px;
@@ -1317,8 +1330,10 @@ a:focus {
 /* style2 */
 
 #mainnav.st-2 .menu {
-    padding-left: 0;
+    padding-left: 400px;
+    
 }
+
 
 #mainnav.st-2 .menu li a {
     color: var(--primary-color1);
@@ -2406,3 +2421,61 @@ a:focus {
 }
 
 
+
+.Hero-sileder_container{
+    padding-top: 12%;
+}
+
+
+/* HeroSlider Css start here */
+.dino-world .carousel-caption {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    text-align: right;
+    color: white;
+    z-index: 10;
+    
+  }
+  
+  .dino-world .slide-text,
+  .dino-world .description-text {
+    animation: slideInFromRight 1.5s ease-in-out forwards;
+    opacity: 0;
+    position: relative;
+    text-shadow: 1px 1px black;
+
+  }
+  .description-text{
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 1px black;
+
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .dino-world .carousel img {
+    animation: fadeEffect 2s ease-in-out;
+    height: 560px;
+  }
+  
+  @keyframes fadeEffect {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

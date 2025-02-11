@@ -8,18 +8,18 @@ import Layout from "../src/layouts/Layout";
 const Pricing = () => {
   return (
     <Layout bodyClass={"pricing"}>
-      <PageBanner pageName={"Pricing Plan"} />
+      <PageBanner pageName={"Package Plan"} />
       <section className="tf-section tf-pricing">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
               <div className="title-heading m-t27 b61">
                 <div className="sub-heading clr-pri-3 f-mulish">
-                  <span className="inner-sub st-2">Pricing Plan</span>
+                  <span className="inner-sub st-2">Packages Plan</span>
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
-                  We Provide Awesome Pricing Package For Study
+                Dino World Pricing Plans
                 </h2>
               </div>
               {/*/.title-heading*/}
@@ -27,18 +27,18 @@ const Pricing = () => {
             <div className="col-md-12">
               <Tab.Container defaultActiveKey={"monthly"}>
                 <div className="flat-tabs">
-                  <Nav as={"ul"} className="menu-tab">
+                  {/* <Nav as={"ul"} className="menu-tab">
                     <Nav.Link as={"li"} eventKey={"monthly"} className="month">
                       <span className="fl-btn st-9">
-                        <span className="inner">monthly</span>
+                        <span className="inner">Basic Plan</span>
                       </span>
                     </Nav.Link>
                     <Nav.Link as={"li"} eventKey={"year"} className="year">
                       <span className="fl-btn st-9">
-                        <span className="inner">yearly</span>
+                        <span className="inner">Group Plan</span>
                       </span>
                     </Nav.Link>
-                  </Nav>
+                  </Nav> */}
                   <Tab.Content className="content-tab">
                     <Tab.Pane eventKey={"monthly"}>
                       <div className="content-inner">
@@ -48,35 +48,40 @@ const Pricing = () => {
                           data-wow-duration="1200ms"
                         >
                           <div className="content">
-                            <h4>1st Session</h4>
+                            <h4>Basic Plan</h4>
                             <p className="f-mulish">
-                              Sit amet, consectetur adipiscing elit sed eiusmod
-                              tempor
+                            Perfect for a short visit to Dino World.
                             </p>
                           </div>
                           <div className="pricing">
-                            <span className="number">$125.59/</span>
-                            <span>monthly</span>
+                            <span className="number">₹470/</span>
+                            <span>Person</span>
                           </div>
                           <ul className="list">
                             <li>
-                              <span>Outdoor Games</span>
+                              <span>Access to Dinosaur Park</span>
                             </li>
                             <li>
-                              <span>School Transports</span>
+                              <span>Water Park</span>
                             </li>
                             <li>
-                              <span>Best/Special Programs</span>
+                              <span>Adventure Zone</span>
                             </li>
                             <li>
-                              <span>Annual Tours &amp; Travels</span>
+                              <span>Playground Activities</span>
+                            </li>
+                            <li>
+                              <span>Playground Activities</span>
+                            </li>
+                            <li>
+                              <span>duration is approx 7hrs.</span>
                             </li>
                           </ul>
-                          <Link href="/contact">
+                          {/* <Link href="/contact">
                             <a className="fl-btn st-9">
                               <span className="inner">Choose plan</span>
                             </a>
-                          </Link>
+                          </Link> */}
                         </div>
                         <div
                           className="sc-pricing style2 wow fadeIn animated"
@@ -110,42 +115,53 @@ const Pricing = () => {
                               </span>
                             </li>
                           </ul>
-                          <div className="content">
-                            <h4>1st Session</h4>
+                          <div className="content ">
+                            <h5 className="text-white">Kitty Party Packages</h5>
                             <p className="f-mulish">
-                              Sit amet, consectetur adipiscing elit sed eiusmod
-                              tempor
+                            Perfect for groups looking for a fun day at Dino World.
                             </p>
                           </div>
-                          <div className="pricing">
-                            <span className="number">$249.59/</span>
-                            <span>monthly</span>
+                          <div className="pricing ">
+                            <span className="number">₹650/</span>
+                            <span>Person</span>
                           </div>
-                          <ul className="list">
+                          <ul className="list ">
+                            {/* <li>
+                              <span>₹650/- per person</span>
+                            </li> */}
                             <li>
-                              <span>Outdoor Games</span>
+                              <span>Access to Dinosaur Park</span>
                             </li>
                             <li>
-                              <span>School Transports</span>
+                              <span>Water Park</span>
                             </li>
                             <li>
-                              <span>Best/Special Programs</span>
+                              <span>Adventure Zone</span>
                             </li>
                             <li>
-                              <span>Annual Tours &amp; Travels</span>
+                              <span>Playground Activities</span>
                             </li>
                             <li>
+                              <span>A minimum of 20 peoples</span>
+                            </li>
+                            <li >
+                              <span>price varies based on the food</span>
+                            </li>
+                            <li>
+                              <span>For more details 90009 24143</span>
+                            </li>
+                            {/* <li>
                               <span>Fun &amp; Game Campaing</span>
                             </li>
                             <li>
                               <span>Tiffen &amp; Lunch Package</span>
-                            </li>
+                            </li> */}
                           </ul>
-                          <Link href="/contact">
+                          {/* <Link href="/contact">
                             <a className="fl-btn st-9">
                               <span className="inner">Choose plan</span>
                             </a>
-                          </Link>
+                          </Link> */}
                         </div>
                         <div
                           className="sc-pricing style3 wow fadeIn animated"
@@ -153,27 +169,38 @@ const Pricing = () => {
                           data-wow-duration="1200ms"
                         >
                           <div className="content">
-                            <h4>1st Session</h4>
+                            <h5 className="text-white">Corporate Party Packages</h5>
                             <p className="f-mulish">
-                              Sit amet, consectetur adipiscing elit sed eiusmod
-                              tempor
-                            </p>
+                            If cocktails are required, a special permit must be obtained from the police department                            </p>
                           </div>
                           <div className="pricing">
-                            <span className="number">$398.59/</span>
-                            <span>monthly</span>
+                            <span className="number">₹650/</span>
+                            <span>person</span>
                           </div>
                           <ul className="list">
-                            <li>
-                              <span>Outdoor Games</span>
+                          <li>
+                              <span>Access to Dinosaur Park</span>
                             </li>
                             <li>
-                              <span>School Transports</span>
+                              <span>Water Park</span>
                             </li>
                             <li>
-                              <span>Best/Special Programs</span>
+                              <span>Adventure Zone</span>
                             </li>
                             <li>
+                              <span>Playground Activities</span>
+                            </li>
+                            <li>
+                              <span>Alcohol is strictly prohibited</span>
+                            </li>
+                            <li>
+                              <span> The price varies based on the food</span>
+                            </li>
+                            <li>
+                              <span> For more contact: 90009 24143.
+                              </span>
+                            </li>
+                            {/* <li>
                               <span>Annual Tours &amp; Travels</span>
                             </li>
                             <li>
@@ -181,18 +208,18 @@ const Pricing = () => {
                             </li>
                             <li>
                               <span>Tiffen &amp; Lunch Package</span>
-                            </li>
+                            </li> */}
                           </ul>
-                          <Link href="/contact">
+                          {/* <Link href="/contact">
                             <a className="fl-btn st-9">
                               <span className="inner">Choose plan</span>
                             </a>
-                          </Link>
+                          </Link> */}
                         </div>
                       </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey={"year"}>
-                      <div className="content-inner">
+                      {/* <div className="content-inner">
                         <div
                           className="sc-pricing m-b90 wow fadeIn animated"
                           data-wow-delay="0.3ms"
@@ -262,7 +289,7 @@ const Pricing = () => {
                             </li>
                           </ul>
                           <div className="content">
-                            <h4>1st Session</h4>
+                            <h5 className="text-danger">1st Session</h5>
                             <p className="f-mulish">
                               Sit amet, consectetur adipiscing elit sed eiusmod
                               tempor
@@ -340,7 +367,7 @@ const Pricing = () => {
                             </a>
                           </Link>
                         </div>
-                      </div>
+                      </div> */}
                     </Tab.Pane>
                   </Tab.Content>
                 </div>
@@ -359,21 +386,20 @@ const Pricing = () => {
                 data-wow-duration="1200ms"
               >
                 <div className="wrap">
-                  <h2 className="title clr-pri-1">
-                    Ready To Admit Your Child ?
-                  </h2>
+                  <h3 className="title clr-pri-1">
+                  Ready to Embark on a Dino-Filled Adventure
+                  </h3>
                   <p className="sub clr-pri-1 f-mulish">
-                    Amet consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore
+                  Explore, learn, and create unforgettable memories at Dino World!
                   </p>
                 </div>
                 <div className="inner-sc-contact">
                   <div className="box-btn">
-                    <Link href="/contact">
+                    {/* <Link href="/contact">
                       <a className="fl-btn st-9">
                         <span className="inner">Enroll Now</span>
                       </a>
-                    </Link>
+                    </Link> */}
                   </div>
                   <div className="inner-contact fx">
                     <svg
@@ -394,7 +420,7 @@ const Pricing = () => {
                     </svg>
                     <ul>
                       <li className="clr-pri-1">Hotline</li>
-                      <li className="clr-pri-1">+012 (345) 678</li>
+                      <li className="clr-pri-1">+91 90009 24143</li>
                     </ul>
                   </div>
                 </div>

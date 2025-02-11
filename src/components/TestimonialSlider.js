@@ -19,17 +19,17 @@ const TestimonialSlider = () => {
               </div>
               <ul>
                 <li>
-                  <h4 className="name-author clr-pri-2">BUS</h4>
+                  <h4 className="name-author clr-pri-2">Rajeshwari K.
+                  </h4>
                 </li>
                 {/* <li>
-                  <p className="clr-pri-5 f-mulish">bus</p>
+                  <p className="clr-pri-5 f-mulish">Senior Manager</p>
                 </li> */}
               </ul>
             </div>
             <div className="wrap">
               <p className="clr-pri-2">
-              “Take a bus to Koti Terminal, then a direct hourly bus to Crusher Machines. Don't miss the fun!”
-             
+                “ Dino World is a fantastic place for kids and adults alike. My children loved the dinosaur exhibits, and the water park was a refreshing treat! ”
               </p>
             </div>
           </div>
@@ -53,7 +53,8 @@ const TestimonialSlider = () => {
               </div>
               <ul>
                 <li>
-                  <h4 className="name-author clr-pri-2">cab</h4>
+                  <h4 className="name-author clr-pri-2">Venkatesh R.
+                  </h4>
                 </li>
                 {/* <li>
                   <p className="clr-pri-5 f-mulish">Senior Manager</p>
@@ -62,9 +63,7 @@ const TestimonialSlider = () => {
             </div>
             <div className="wrap">
               <p className="clr-pri-2">
-              “ Take a cab to Dino World, but return rides are scarce in the evening!”
-              
-                
+                “ The adventure zone was thrilling! My family had a great time ziplining and exploring the rope courses. Highly recommend Dino World! ”
               </p>
             </div>
           </div>
@@ -84,25 +83,17 @@ const TestimonialSlider = () => {
               </div>
               <ul>
                 <li>
-                  <h4 className="name-author clr-pri-2">
-                  {/* Bradley Y. Grimes */}
-                  metro
+                  <h4 className="name-author clr-pri-2">Swapna T.
                   </h4>
                 </li>
-                <li>
-                  {/* <p className="clr-pri-5 f-mulish">Senior Manager</p> */}
-                </li>
+                {/* <li>
+                  <p className="clr-pri-5 f-mulish">Senior Manager</p>
+                </li> */}
               </ul>
             </div>
             <div className="wrap">
               <p className="clr-pri-2">
-                {/* “ On the other hand denounce with righteous indignation and
-                dislike men who are so beguiled and demoralized by the charms of
-                pleasure of the moment” */}
-                “ Take the Metro to L.B. Nagar, then a bus to Crusher Machines. Autos will take you to the park!”
-                
-                
-                
+                “ The animatronic dinosaurs were so realistic and educational. My students learned so much while having fun. Perfect for school trips! ”
               </p>
             </div>
           </div>
@@ -126,11 +117,9 @@ const TestimonialSlider = () => {
                 />
               </div>
               <ul>
-                {/* <li>
-                  <h4 className="name-author clr-pri-2">Bradley Y. Grimes</h4>
-                </li> */}
                 <li>
-                  <h4 className="name-author clr-pri-2">airport</h4>
+                  <h4 className="name-author clr-pri-2">Nagarjuna M.
+                  </h4>
                 </li>
                 {/* <li>
                   <p className="clr-pri-5 f-mulish">Senior Manager</p>
@@ -139,7 +128,7 @@ const TestimonialSlider = () => {
             </div>
             <div className="wrap">
               <p className="clr-pri-2">
-                “Hyderabad Airport is 43.7 km away. Take a taxi or app-based ride to reach the park”
+                “ From the playground to the food court, Dino World offers something for everyone.   an amazing place to relax and enjoy quality time with family! ”
               </p>
             </div>
           </div>

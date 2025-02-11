@@ -31,18 +31,19 @@ const Gallery = () => {
               >
                 <div className="box-feature active">
                   <img
-                    src="assets/images/common/sc-gallery-1.jpg"
+                    src="assets/images/common/dino4.jpg"
                     alt="Image"
                   />
-                  <div className="overlay" />
-                  <div className="box-content">
+                
+                  {/* <div className="overlay" /> */}
+                  {/* <div className="box-content">
                     <h5 className="title">
                       <a href="#" className=" clr-pri-2">
                         Outdoor &amp; Gaming
                       </a>
                     </h5>
                     <p className="f-rubik">kindergarten</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -54,10 +55,10 @@ const Gallery = () => {
               >
                 <div className="box-feature">
                   <img
-                    src="assets/images/common/sc-gallery-2.jpg"
+                    src="assets/images/common/dino2.jpg"
                     alt="Image"
                   />
-                  <div className="overlay" />
+                  {/* <div className="overlay" />
                   <div className="box-content">
                     <h5 className="title">
                       <a href="#" className=" clr-pri-2">
@@ -65,7 +66,7 @@ const Gallery = () => {
                       </a>
                     </h5>
                     <p className="f-rubik">kindergarten</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -77,10 +78,10 @@ const Gallery = () => {
               >
                 <div className="box-feature">
                   <img
-                    src="assets/images/common/sc-gallery-3.jpg"
+                    src="assets/images/common/dino3.jpg"
                     alt="Image"
                   />
-                  <div className="overlay" />
+                  {/* <div className="overlay" />
                   <div className="box-content">
                     <h5 className="title">
                       <a href="#" className=" clr-pri-2">
@@ -88,7 +89,7 @@ const Gallery = () => {
                       </a>
                     </h5>
                     <p className="f-rubik">kindergarten</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -100,10 +101,10 @@ const Gallery = () => {
               >
                 <div className="box-feature">
                   <img
-                    src="assets/images/common/sc-gallery-4.jpg"
+                    src="assets/images/common/dino5.avif"
                     alt="Image"
                   />
-                  <div className="overlay" />
+                  {/* <div className="overlay" />
                   <div className="box-content">
                     <h5 className="title">
                       <a href="#" className=" clr-pri-2">
@@ -111,7 +112,7 @@ const Gallery = () => {
                       </a>
                     </h5>
                     <p className="f-rubik">kindergarten</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -123,10 +124,10 @@ const Gallery = () => {
               >
                 <div className="box-feature">
                   <img
-                    src="assets/images/common/sc-gallery-5.jpg"
+                    src="assets/images/common/dino7.avif"
                     alt="Image"
                   />
-                  <div className="overlay" />
+                  {/* <div className="overlay" />
                   <div className="box-content">
                     <h5 className="title">
                       <a href="#" className=" clr-pri-2">
@@ -134,7 +135,7 @@ const Gallery = () => {
                       </a>
                     </h5>
                     <p className="f-rubik">kindergarten</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

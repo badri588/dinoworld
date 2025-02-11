@@ -586,7 +586,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #223668;
+  background-color: #2236687c;
+  /* background-color: #223668; */
   opacity: 0.85;
   background-size: cover;
   -webkit-mask-image: url(../images/background/mask3.png);
@@ -604,9 +605,12 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url(../images/thumbnails/studying-classroom.jpg) center center
+    /* (../images/thumbnails/studying-classroom.jpg) */
+
+  background: url("https://media1.thrillophilia.com/filestore/454a9me8mqzvf2xkr00bu8p1ljc5_2022-03-06.jpg?h=441&w=auto&dpr=1.25")
+   center center
     no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   -webkit-mask-image: url(../images/background/mask3.png);
   mask-image: url(../images/background/mask3.png);
   -webkit-mask-position: center center;
@@ -1588,6 +1592,10 @@
   position: relative;
   padding-left: 108px;
 }
+/* .box-feature .image{
+  width: 100%;
+  heig
+} */
 
 .item-slider-1 .box-custom {
   display: -webkit-box;
@@ -3911,7 +3919,8 @@
 .sc-pricing {
   background: url(../images/background/bg-tab.png) center center no-repeat;
   width: calc(33.333% - 30px);
-  padding: 35px 65px 60px 47px;
+  /* padding: 35px 175px 60px 17px; */
+  padding: 2%;
   margin-left: 30px;
   position: relative;
 }

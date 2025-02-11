@@ -33,7 +33,7 @@ const MobileMenu = () => {
       <div className="top-bar">
         <div className="inner jus-ct">
           <p className="clr-pri-1">
-            Working Jours : Sun - Friday, 08:00 am - 05:00 pm
+            Working Jours : Tuseday - Sunday, 11:00 am - 06:00 pm
           </p>
         </div>
       </div>
@@ -45,7 +45,10 @@ const MobileMenu = () => {
                 <div id="site-logo" className="clearfix">
                   <Link href="/">
                     <a className="logo">
-                      <img src="assets/images/logo/logodark.png" alt="Kinco" />
+                      {/* <img src="assets/images/logo/logodark.png" alt="Kinco" /> */}
+                      {/* <img src="https://scontent.fhyd11-3.fna.fbcdn.net/v/t39.30808-6/307764210_766767721384065_3834160647134125181_n.png?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=pfUwkNkxnI0Q7kNvgFRxxia&_nc_oc=Adiib395ak3P-n5GO-LYvY45IdRGhJfBmbP6-wZoYDMLiZy2lJQRVRWk5pQc0_8Pj0zXaPIh7VDLOjL6tDPVZbwK&_nc_zt=23&_nc_ht=scontent.fhyd11-3.fna&_nc_gid=AHshZaORY-oYtG8N8iXUguY&oh=00_AYAdNBxOhy7FpvdMTmpP6o339okhwwxXIw9yd-_oVWJKCQ&oe=67A7D256" alt="Logo" /> */}
+                      <h3>𝕯𝖎𝖓𝖔 𝖜𝖔𝖗𝖑𝖉</h3>
+
                     </a>
                   </Link>
                 </div>
@@ -158,17 +161,17 @@ const MobileMenu = () => {
             <li className="menu-item-has-children">
               <a href="#">HOME</a>
               <span
-                className={`btn-submenu ${activeBtn("Home")}`}
+                className={`btn-submen ${activeBtn("Home")}`}
                 onClick={() => activeMenuSet("Home")}
               />
-              <ul className="sub-menu" style={activeLi("Home")}>
+              {/* <ul className="sub-menu" style={activeLi("Home")}>
                 <Home />
-              </ul>
+              </ul> */}
             </li>
             <li className="menu-item">
               <About />
             </li>
-            <li className="menu-item-has-children">
+            {/* <li className="menu-item-has-children">
               <a>PAGES</a>
               <span
                 className={`btn-submenu ${activeBtn("PAGES")}`}
@@ -237,10 +240,23 @@ const MobileMenu = () => {
               <ul className="sub-menu" style={activeLi("SHOP")}>
                 <Shop />
               </ul>
+            </li> */}
+            <li className="inner">
+              {/* <Contact /> */}
+              <a>Activities</a>
+
             </li>
             <li className="inner">
-              <Contact />
+              {/* <Contact /> */}
+              <a>Gallary</a>
+
             </li>
+            <li className="inner">
+              {/* <Contact /> */}
+              <a>Packages</a>
+
+            </li>
+           
           </ul>
           {/* /.menu */}
         </nav>
